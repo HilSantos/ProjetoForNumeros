@@ -17,17 +17,17 @@ namespace ProjetoForNumeros
              * a partir do valor que o usuario escolher.
             */
 
-            Console.WriteLine("Informe o numero: ");
+Console.WriteLine("Informe o numero: ");
             int numero = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = 1; i <= 20; i++)
+for (int i = 1; i <= 20; i++)
                 
-            {
+{
                 numero += 1; 
                 Console.WriteLine("Numero: " + numero);
             }
 
-                Console.ReadKey();
+Console.ReadKey();
         }
     }
 }
